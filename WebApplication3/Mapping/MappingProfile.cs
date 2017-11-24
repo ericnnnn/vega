@@ -10,6 +10,7 @@ namespace WebApplication3.Mapping
         {
             CreateMap<Make, MakeResource>();
             CreateMap<Model,ModelResource>();
+            CreateMap<Feature, FeatureResource>();
         }
     }
 }
